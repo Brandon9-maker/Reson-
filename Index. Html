@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reson | Official Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">RESON</div>
+    </nav>
+
+    <header>
+        <h1>Welcome to Reson.com</h1>
+        <p>Innovation and Design Redefined.</p>
+        <button id="actionBtn" class="btn">Get Started</button>
+    </header>
+
+    <main class="container">
+        <section class="content-box">
+            <h2>About Reson</h2>
+            <p>Reson is a platform built for creators, by creators. We focus on speed, simplicity, and modern aesthetics.</p>
+            <p id="statusMsg"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Reson.com | Built by Brandon9-maker</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
