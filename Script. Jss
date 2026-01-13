@@ -1,0 +1,12 @@
+document.getElementById('actionBtn').addEventListener('click', function() {
+    const msg = document.getElementById('statusMsg');
+    
+    msg.style.marginTop = "30px";
+    msg.style.padding = "15px";
+    msg.style.borderTop = "1px solid #00d4ff";
+    msg.style.color = "#00d4ff";
+    msg.innerHTML = "✨ Thank you for visiting Reson.com! We are currently under development.";
+    
+    console.log("Reson.com script initialized.");
+});
+ 
